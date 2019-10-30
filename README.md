@@ -22,7 +22,7 @@ Please cite the …
 	The tool is independent from all the pre-requisite, However, in lower version of OS (Windows 8)
 
 2.2.2 MS2Compound installation
-	Download the zipped folder and unzipped : (Personal website link)
+	Download the zipped folder and unzip : (Personal website link)
 	Unzip it and locate to the folder MS2Compound
 
 3. Start MS2Compound
