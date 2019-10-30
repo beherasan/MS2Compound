@@ -23,10 +23,11 @@ Please cite the …
 The tool is independent from all the pre-requisite, However, in lower version of OS (Windows 8)
 
 2.2.2 MS2Compound installation
-•	Download the zipped folder and unzipped : (Personal website link)
-•	Unzip it and locate to the folder MS2Compound
+	Download the zipped folder and unzipped : (Personal website link)
+	Unzip it and locate to the folder MS2Compound
 
 3. Start MS2Compound
+
 An executable file “MS2Compound.exe” will be provided in the extracted folder. Click on the executable file to start the Graphical User Interface (GUI) of the tool. 
 
 4. GUI of MS2Compound
