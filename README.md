@@ -20,7 +20,7 @@ Please cite the …
 
 2.2.1 Dependencies
 
-The tool is independent from all the pre-requisite, However, in lower version of OS (Windows 8)
+	The tool is independent from all the pre-requisite, However, in lower version of OS (Windows 8)
 
 2.2.2 MS2Compound installation
 	Download the zipped folder and unzipped : (Personal website link)
