@@ -5,16 +5,23 @@ The current version of the tool is compatible with Mascot Generic Format (.mgf) 
 
 Please cite the …  
 2.  Installation
+
 2.1 System requirements
+
 2.1.1 Operating System
 	Windows 10
 	The tool has been tested in XXX, 
+
 2.1.2 System Configuration
 	2GB or more RAM
 	Intel i3 64-bit CPU 
+
 2.2 Installation
+
 2.2.1 Dependencies
+
 The tool is independent from all the pre-requisite, However, in lower version of OS (Windows 8)
+
 2.2.2 MS2Compound installation
 •	Download the zipped folder and unzipped : (Personal website link)
 •	Unzip it and locate to the folder MS2Compound
