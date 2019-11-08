@@ -1,0 +1,8 @@
+ID	Species	Strain
+1	E.coli	a
+2	E.coli	b
+3	E.coli	c
+4	E.coli	d
+5	S.cre	x
+6	S.cre	y
+7	S.cre	z

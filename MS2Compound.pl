@@ -25,6 +25,7 @@ while ($fp1 = readdir(DIR)) {
 		while (<$fh>)
 		{
 			chomp;
+			$_=~s/\r//g;
 			unless(/^\s/)
 			{
 				if(/energy0/)
@@ -56,6 +57,7 @@ open(IN,"$monoMass_file") or die "Could not open the file:$!\n";
 while(<IN>)
 {
 	chomp;
+	$_=~s/\r//g;	
 	($id,$monoMass)=(split /\t/)[0,1];
 	$hashMono{$id}="$monoMass";
 }
@@ -63,15 +65,31 @@ close IN;
 
 ##### MS/MS match #####
 open(MGF,"$query_mgf") or die "Could not open the file:$!\n";
-open(OUT,">$out_dir\\output.txt") or die "Could not create the file:$!\n";
+open(OUT,">$out_dir\\matched_features.txt") or die "Could not create the file:$!\n";
+open(UNASSIGNED,">$out_dir\\unassigned_features.mgf") or die "Could not create the file:$!\n";
+open(ERROR,">$out_dir\\error.log") or die "Could not create the file:$!\n";
 
+$mz_logDir = "$out_dir\\MZmatch_LOG";
+=start
+if (-e $mz_logDir and -d $mz_logDir)
+{
+	print ERROR "Previous MZmatch_LOG directory is replaced with new one\n";
+	system("rmdir -r $mz_logDir");
+	mkdir($mz_logDir) or die "Couldn't create $mz_logDir directory, $!";	
+}
+else{
+	mkdir($mz_logDir) or die "Couldn't create $mz_logDir directory, $!";
+}
+=cut
 print OUT "FEATURE_ID\tCompoundId:Mean_Deviation_Score:NumberOfMatch||\n";
 while(<MGF>)
 {
 	chomp;
+	$_=~s/\r//g;
 	if(/^BEGIN IONS/)
 	{
-		## inititae all the variables here for each instance of metabolite
+		$id=$precursor_mass=$charge_all=$rt_inSeconds=$mslevel="";
+		@all_mz=();
 		@parentArr=();
 		$frag_mz_int_exp = "";
 	}
@@ -93,6 +111,10 @@ while(<MGF>)
 			}	
 		}
 	}
+	if(/^RTINSECONDS\=(.*)/)
+	{
+		$rt_inSeconds=$1;
+	}
 	if(/^CHARGE\=(.*)/)
 	{
 		$charge_all=$1;
@@ -108,12 +130,16 @@ while(<MGF>)
 		}
 		else
 		{
-			print "Check the charge state in MGF file\n";
-			exit;	
+			print ERROR "WARNING: Check the charge state in MGF file for $id\n";
 		}	
+	}
+	if(/^MSLEVEL\=(.*)/)
+	{
+		$mslevel=$1;
 	}
 	if(/^[0-9]/)
 	{
+		push(@all_mz,$_);
 		($frag_mz,$frag_int)=(split /\s/)[0,1];
 		$frag_mz_int_exp .= "$frag_mz-$frag_int;";
 	}
@@ -159,13 +185,33 @@ while(<MGF>)
 			}	
 		}
 		if($sw_match == 1)
-		{
+		{			
 			print OUT "$id\t$hash_rawScore{$id}\n";
+			$mz_logfile= $mz_logDir."\\FeatureId_".$id."_mzMatch.log"; 
+			open(MZLOG,">$mz_logfile") or die "Could not create the file:$!\n";
+			print MZLOG "$id\t$hash_rawScore{$id}\n";
+			close MZLOG;
+		}
+		elsif($sw_match == 0)
+		{
+			print UNASSIGNED "BEGIN IONS\n";
+			print UNASSIGNED "FEATURE_ID=$id\n";
+			print UNASSIGNED "PEPMASS=$precursor_mass\n";
+			print UNASSIGNED "RTINSECONDS=$rt_inSeconds\n";
+			print UNASSIGNED "CHARGE=$charge_all\n";
+			print UNASSIGNED "MSLEVEL=$mslevel\n";
+			foreach $allMz (@all_mz)
+			{
+				print UNASSIGNED "$allMz\n";
+			}
+			print UNASSIGNED "END IONS\n\n";		
 		}
 	}
 }
 close OUT;
 close MGF;
+close UNASSIGNED;
+
 #############################
 ### End of the program ######
 #############################

@@ -1,0 +1,9 @@
+1	E.coli	E1
+2	E.coli	E2
+3	E.coli	E3
+4	MTB	M1
+5	MTB	M2
+6	MTB	M3
+7	MTB	M4
+8	TTB	T1
+9	TTC	T2
