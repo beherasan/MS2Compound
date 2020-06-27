@@ -1,9 +1,10 @@
 # MS2Compound v 1.0.0
 
 MS2Compound v1.0.0 is a user friendly Graphical User Interface (GUI) for the identification of the compounds from MS and MS/MS metabolomics data. The tool features use of custom database for the identification of compounds. 
-The current version is compatible with the customized database prepared using the fragment prediction using CFM-id tool. Mascot Generic Format (mgf) files can be used as query input file and search against in-built or cusotm database. 
+The current version of MS2Compound is compatible with the customized database prepared using CFM-id, the fragment prediction tool. Mascot Generic Format (mgf) files can be used as query input file and search against in-built or cusotm database. 
 
-Please cite the …  
+Please cite the ...  
+
 # 2.  Installation
 # 	2.1 System requirements
 2.1.1 Operating System
