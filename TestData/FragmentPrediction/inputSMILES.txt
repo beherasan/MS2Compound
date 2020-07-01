@@ -1,0 +1,5 @@
+challenge-001	c1cc(ccc1C1COc2cc(cc(c2C1=O)O)O)O
+challenge-002	C=C(C)C(C)c1cc(/C=C/C(=O)c2ccc(cc2)O)c(cc1O)OC
+challenge-003	COc1ccc(CCN=C(/C=C/c2ccccc2)O)cc1OC
+challenge-004	c1cc(ccc1c1c(c(=O)c2ccc(cc2o1)O)O)O
+challenge-005	c1cc(c(cc1/C=C\1/C(=O)c2ccc(cc2O1)O)O)O
