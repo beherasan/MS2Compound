@@ -1,3 +1,5 @@
+[![CC BY 4.0][cc-by-shield]][cc-by] 
+
 # MS2Compound v 1.0.0
 
 MS2Compound v1.0.0 is a user friendly Graphical User Interface (GUI) for the identification of the compounds from MS and MS/MS metabolomics data. The tool features use of custom database for the identification of compounds. 
