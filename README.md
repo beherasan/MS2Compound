@@ -32,6 +32,6 @@ Click on the shortcut “MS2Compound”, created in desktop after successful com
 
 # 4. Usage of MS2Compound
 
-Please refer to manual.pdf for the usage of the tool.
+Please refer to Manual.pdf for the usage of the tool.
 
 
