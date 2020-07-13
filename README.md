@@ -21,7 +21,7 @@ The tool has been developed and maintained by Center for Systems Biology and Mol
 
 2.2.2 MS2Compound installation
 	
-	. Download the application “MS2Compound_Setup.exe” from https://github.com/beherasan/MS2Compound or https://sourceforge.net/projects/ms2compound/
+	. Download the application “MS2Compound_v1.0.1.exe” from https://github.com/beherasan/MS2Compound or https://sourceforge.net/projects/ms2compound/
 	. Click on “MS2Compound_Setup.exe” to install. The default installation directory will be “C:\MS2Compound”, user can select the installation directory of choice, however avoid spaces (“ ”) in the directory path name.
 	. Please select to create a shortcut of the MS2Compound in desktop for easy access.
 	. A successful installation will create a directory C:\MS2Compound. This directory will contain the executable “MS2Compound.exe”.
