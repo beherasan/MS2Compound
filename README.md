@@ -28,7 +28,7 @@ The tool has been developed and maintained by Center for Systems Biology and Mol
 
 # 3. Start MS2Compound
 
-Click on the shortcut “MS2Compound”, created in desktop after successful completion of installation. If the user has not opted for desktop shortcut during installation, the executable can be start by clicking the “MS2Compound.exe” in “C:\MS2Compound” directory.
+Click on the shortcut “MS2Compound_v1.0.1”, created in desktop after successful completion of installation. If the user has not opted for desktop shortcut during installation, the executable can be start by clicking the “MS2Compound.exe” in “C:\MS2Compound” directory.
 
 # 4. Usage of MS2Compound
 
