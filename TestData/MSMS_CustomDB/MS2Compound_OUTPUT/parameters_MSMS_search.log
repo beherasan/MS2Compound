@@ -1,0 +1,16 @@
+#FILES 
+Input file = C:\Users\santosh\Desktop\MS2Compound-master\TestData\MSMS_CustomDB\Input.mgf
+Output directory = C:\Users\santosh\Desktop\MS2Compound-master\TestData\MSMS_CustomDB\MS2Compound_OUTPUT
+Compounds assigned (Text) file = C:\Users\santosh\Desktop\MS2Compound-master\TestData\MSMS_CustomDB\MS2Compound_OUTPUT\Assigned.txt
+Compounds assigned (HTML) file = C:\Users\santosh\Desktop\MS2Compound-master\TestData\MSMS_CustomDB\MS2Compound_OUTPUT\Assigned.html
+Unassigned precursor mass (MGF) file =C:\Users\santosh\Desktop\MS2Compound-master\TestData\MSMS_CustomDB\MS2Compound_OUTPUT\Unassigned.mgf
+
+#PARAMETERS 
+Ionization mode = Positive
+Adducts selected = M+H;M+H-2H2O;M+H-H2O;M+NH4-H2O;M+Li;M+NH4;M+Na;M+CH3OH+H;M+K;M+ACN+H;M+2Na-H;M+IsoProp+H;M+ACN+Na;M+2K-H;M+DMSO+H;M+2ACN+H;M+IsoProp+Na+H;M+H+HCOONa;2M+H;2M+NH4;2M+Na;2M+2H+3H2O;2M+K;2M+ACN+H;2M+ACN+Na;2M+H-H2O;M+2H;M+H+NH4;M+H+Na;M+H+K;M+ACN+2H;M+2Na;M+2ACN+2H;M+3ACN+2H;M+3H;M+2H+Na;M+H+2Na;M+3Na;M+H+2K
+Reference database diretcory = C:\Users\santosh\Desktop\MS2Compound-master\TestData\MSMS_CustomDB\ReferenceDB
+Monoisotopic mass file = C:\Users\santosh\Desktop\MS2Compound-master\TestData\MSMS_CustomDB\MonoIsotopicmass.txt
+Precursor mass tolerance = 0.05 Da
+Fragment mass tolerance = 0.05 Da
+Minimum number of matched Fragments = 1
+CID energy selected = Low
