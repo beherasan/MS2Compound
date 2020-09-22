@@ -18,7 +18,7 @@ The tool has been developed and maintained by Center for Systems Biology and Mol
 3.1.2 Minimum system configuration
 	2GB or more RAM
 	Intel i3 64-bit CPU 
-# 	2.2 Installation
+# 	3.2 Installation
 3.2.1 Dependencies
 	The tool is independent from all the pre-requisite dependencies.
 
