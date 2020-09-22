@@ -7,6 +7,9 @@ The current version of MS2Compound is compatible with the customized database pr
 
 The tool has been developed and maintained by Center for Systems Biology and Molecular Medicine (http://csbmm.yenepoya.res.in/). 
 
+# 2. Availability of executables
+1. https://sourceforge.net/projects/ms2compound/
+
 # 2.  Installation
 # 	2.1 System requirements
 2.1.1 Operating system
@@ -20,11 +23,9 @@ The tool has been developed and maintained by Center for Systems Biology and Mol
 	The tool is independent from all the pre-requisite dependencies.
 
 2.2.2 MS2Compound installation
-	
-	. Download the application “MS2Compound_v1.0.1.exe” from https://github.com/beherasan/MS2Compound or https://sourceforge.net/projects/ms2compound/
-	. Click on “MS2Compound_v1.0.1.exe” to install. The default installation directory will be “C:\MS2Compound”, user can select the installation directory of choice, however avoid spaces (“ ”) in the directory path name.
-	. Please select to create a shortcut of the MS2Compound in desktop for easy access.
-	. A successful installation will create a directory C:\MS2Compound. This directory will contain the executable “MS2Compound.exe”.
+	1. Click on “MS2Compound_v1.0.1.exe” to install. The default installation directory will be “C:\MS2Compound”, user can select the installation directory of choice, however avoid spaces (“ ”) in the directory path name.
+	2. Please select to create a shortcut of the MS2Compound in desktop for easy access
+	3. A successful installation will create a directory C:\MS2Compound. This directory will contain the executable “MS2Compound.exe”.
 
 # 3. Start MS2Compound
 
