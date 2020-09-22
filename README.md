@@ -23,13 +23,13 @@ The tool has been developed and maintained by Center for Systems Biology and Mol
 	The tool is independent from all the pre-requisite dependencies.
 
 3.2.2 MS2Compound installation
-1. Click on “MS2Compound_v1.0.1.exe” to install. The default installation directory will be “C:\MS2Compound”, user can select the installation directory of choice, however avoid spaces (“ ”) in the directory path name.
+1. Click on “MS2Compound_v1.0.2.exe” to install. The default installation directory will be “C:\MS2Compound”, user can select the installation directory of choice, however avoid spaces (“ ”) in the directory path name.
 2. Please select to create a shortcut of the MS2Compound in desktop for easy access	
 3. A successful installation will create a directory C:\MS2Compound. This directory will contain the executable “MS2Compound.exe”.
 
 # 4. Start MS2Compound
 
-Click on the shortcut “MS2Compound_v1.0.1”, created in desktop after successful completion of installation. If the user has not opted for desktop shortcut during installation, the executable can be start by clicking the “MS2Compound.exe” in “C:\MS2Compound” directory.
+Click on the shortcut “MS2Compound_v1.0.2”, created in desktop after successful completion of installation. If the user has not opted for desktop shortcut during installation, the executable can be start by clicking the “MS2Compound.exe” in “C:\MS2Compound” directory.
 
 # 5. Usage of MS2Compound
 
