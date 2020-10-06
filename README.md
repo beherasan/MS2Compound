@@ -35,7 +35,7 @@ Click on the shortcut “MS2Compound_v1.0.2”, created in desktop after success
 
 Please refer to Manual.pdf for the usage of the tool.
 
-# 5. Contributors
+# 6. Contributors
 
 1. Santosh Kumar Behera
 2. Sandeep Kasaragod (https://github.com/sandeepkasaragod)
