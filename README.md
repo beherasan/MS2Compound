@@ -37,8 +37,8 @@ Please refer to Manual.pdf for the usage of the tool.
 
 # 5. Contributors
 
-Santosh Kumar Behera
-Sandeep Kasaragod https://github.com/sandeepkasaragod
+1. Santosh Kumar Behera
+2. Sandeep Kasaragod https://github.com/sandeepkasaragod
 
 
 This work is licensed under a [Creative Commons Attribution 4.0 International
