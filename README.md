@@ -7,7 +7,8 @@ The current version of MS2Compound is compatible with the customized database pr
 
 The tool has been developed and maintained by Center for Systems Biology and Molecular Medicine (http://csbmm.yenepoya.res.in/). 
 
-# 2. Tool can be downloaded from
+# 2. Availability
+The current version of MS2Compound can be downloaded from following link:
 1. https://sourceforge.net/projects/ms2compound/
 
 # 3. Installation
