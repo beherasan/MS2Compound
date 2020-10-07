@@ -28,8 +28,8 @@ The current version of MS2Compound can be downloaded from following link:
 
 3.2.2 MS2Compound installation
 1. Click on “MS2Compound_v1.0.2.exe” to install. The default installation directory will be “C:\MS2Compound”, user can select the installation directory of choice, however avoid spaces (“ ”) in the directory path name.
-2. Please select to create a shortcut of the MS2Compound in desktop for easy access	
-3. A successful installation will create a directory C:\MS2Compound. This directory will contain the executable “MS2Compound.exe”.
+2. Please select to "create a shortcut in desktop" for easy access	
+3. A successful installation will create a directory C:\MS2Compound, which will contain the executable “MS2Compound.exe”.
 
 # 4. Start MS2Compound
 
