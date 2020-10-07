@@ -33,7 +33,9 @@ The current version of MS2Compound can be downloaded from following link:
 
 # 4. Start MS2Compound
 
-Click on the shortcut “MS2Compound_v1.0.2”, created in desktop after successful completion of installation. If the user has not opted for desktop shortcut during installation, the executable can be start by clicking the “MS2Compound.exe” in “C:\MS2Compound” directory.
+Click on the shortcut “MS2Compound_v1.0.2”, created in desktop after successful completion of installation. If the user has not opted for desktop shortcut during installation, the executable can be start by clicking the “MS2Compound.exe” in “C:\MS2Compound” directory. This will open up a window as following:
+
+<img src="./images/Start.PNG" width="800px" height="auto">
 
 # 5. Usage of MS2Compound
 
