@@ -45,11 +45,13 @@ Please refer to Manual.pdf for the usage of the tool.
 
 # 6. Contributors
 
-1. Santosh Kumar Behera
-2. Sandeep Kasaragod (https://github.com/sandeepkasaragod)
+1. Santosh Kumar Behera (santoshb@yenepoya.edu.in, beheras40@gmail.com)
+2. Sandeep Kasaragod (https://github.com/sandeepkasaragod) (sandeepk@yenepoya.edu.in, sandeep.kolya@gmail.com)
+
+Happy to take any suggestions or feedback.
 
 # 7. Citation
-If you have used MS2Compound in your work, please cite 
+If you have used MS2Compound in your work, please cite the following:
 
 Behera, Santosh Kumar et al. “MS2Compound: A User-Friendly Compound Identification Tool for LC-MS/MS-Based Metabolomics Data.” Omics : a journal of integrative biology vol. 25,6 (2021): 389-399. doi:10.1089/omi.2021.0051
 
